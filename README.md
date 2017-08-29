@@ -12,3 +12,32 @@ The program from a functionality standpoint:
   - Use Intents to create email summary
   - Incorporate styles and themes
   - Build off of design guidelines as provided in the Android documentation
+  
+Coding Principles Used:
+- XML layout design
+  - Nested views
+  - ScrollView, LinearLayout, CheckBox, EditText, TextView
+  - Initialization values versus @string resources
+  - @id/ resource definition
+  - onClick method link to Java code
+  - style="@style/" attributes from overall app/res/values/styles.xml file
+  - app/res/values/strings.xml files for language support
+
+- Java language, classes, and methods
+  - Local versus global variables
+  - Methods:
+      - Private versus public methods
+      - Return types
+      - Arguments
+      - Constructor versus factory methods
+      - Nested calls
+      - 
+  - Classes:
+      - AppCompatActivity, Intent, View, EditText, CheckBox, TextView, String, NumberFormat
+      - Casting to initialized a class as a specific subclass type
+      - R (resource) class methods, namely id
+      - @Override to add custom functionality to a defined class method
+        -Specifically to onCreate method of app creation
+      - extend a class AppCompatActivity with methods of created app class MainActivity
+  - Basic logical statements and operators (if, elseif, else)
+  - Logging with use of Log.v() 
