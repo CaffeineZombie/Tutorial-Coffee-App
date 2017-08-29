@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Solo Café</string>
+    <string name="tax_message">El impuesto local es 7%</string>
+    <string name="thank_you">Gracias</string>
+    <string name="toppings">Ingredientes</string>
+    <string name="ONE">1</string>
+    <string name="button_instructions">Empuje para ordenar</string>
+    <string name="chocolate">Chocolate</string>
+    <string name="chocolate_added">Adición de Chocolate</string>
+    <string name="min_order">Minimo es uno café</string>
+    <string name="max_order">Máximo es 99 cafés</string>
+    <string name="minus">-</string>
+    <string name="plus">+</string>
+    <string name="price">Precio</string>
+    <string name="quantity">Cantidad</string>
+    <string name="total">Total</string>
+    <string name="total_with_tax">$5.35</string>
+    <string name="whipped_cream">Crema Batida</string>
+    <string name="whipped_cream_added">Adición de Crema Batida</string>
+    <string name="name">Nombre</string>
+    <string name="order">Orden</string>
+    <string name="order_summary_name">\"Nombre: <xliff:g id="name" example="Hector">%s</xliff:g> \"</string>
+    <string name="email_address">devcodetestemail@gmail.com</string>
+    <string name="initial_price">$5.00</string>
+    <string name="order_summary">Resumen de su Orden</string>
+</resources>
