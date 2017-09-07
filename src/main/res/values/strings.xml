@@ -1,0 +1,79 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!--
+    These strings are used in the MainActivity.java file
+    -->
+
+    <!--This set of strings is from the increment{} method -->
+    <!--Defined as minimum number of drinks allowed-->
+    <string name="max_order">Max number of coffees is 99.</string>
+
+    <!--This set of strings is from the decrement{} method -->
+    <!--Defined as minimum number of drinks allowed-->
+    <string name="min_order">Minimum order is 1 drink.</string>
+
+    <!--This set of strings is from the submitOrder{} method -->
+    <!--All orders will be sent to the address defined here.-->
+    <string name="email_address">devcodetestemail@gmail.com</string>
+
+    <!--This set of strings is from the displayPrice{} method -->
+    <!--The word for tax-->
+    <string name="tax">tax</string>
+
+    <!--This set of strings is from the createOrderSummary{} method -->
+    <!--The word "Name: " followed by the name the user inputs. No need to translate or modify user name entry.-->
+    <string name="order_summary_name">Name: <xliff:g id="name" example="Mark">%s</xliff:g> </string>
+    <!--The number of drinks-->
+    <string name="quantity">Quantity</string>
+    <!--The final price displayed-->
+    <string name="total">Total</string>
+    <!--Thank you message-->
+    <string name="thank_you">Thank you!</string>
+
+    <!--This set of strings is from the sendEmailOrderSummary{} method -->
+    <!--Warning to user that name that they entered was not valid-->
+    <string name="valid_name_message">Enter a valid name to submit order.</string>
+    <!--Name of application-->
+    <string name="app_name">Just Java</string>
+    <!--The user's order-->
+    <string name="order">Order</string>
+    <!--'from' - text to address the person who ordered-->
+    <string name="from">from</string>
+
+    <!--This set of strings is from the createToppingSummary{} method -->
+    <!--Confirmation that the user ordered additional whipped cream-->
+    <string name="whipped_cream_added">Whipped Cream Added</string>
+    <!--Confirmation that the user ordered additional chocolate-->
+    <string name="chocolate_added">Chocolate Added</string>
+
+
+    <!--
+    These strings are used in the activity_main.xml layout file from top to bottom, left to right.
+    -->
+    <!--Initialization text with instructions that user should input name-->
+    <string name="user_name_input_hint">Name</string>
+    <!--Toppings or additions to standard drink-->
+    <string name="toppings_heading">Toppings</string>
+    <!--Whipped cream addition-->
+    <string name="whipped_cream_check_box">Whipped Cream</string>
+    <!--Chocolate addition -->
+    <string name="chocolate_check_box">Chocolate</string>
+    <!--The symbol used on the decrement button, '-' by English default-->
+    <string name="decrement_button">-</string>
+    <!--The symbol for the number 1 -->
+    <string name="LITERAL_ONE">1</string>
+    <!--The symbol on the increment button, '+' by English default -->
+    <string name="increment_button">+</string>
+    <!--The header for the price summary section showing cost breakdown -->
+    <string name="price_header">Price</string>
+    <!--Pre-tax unit price (initialized to 1 unit at $5.00 as an example-->
+    <string name="initial_price">$5.00</string>
+    <!--Calculated tax only as defined by local tax input -->
+    <string name="initial_tax">$0.35 tax</string>
+    <!--Total order cost -->
+    <string name="total_with_tax">$5.35</string>
+    <!--Reminder of local tax per monetary unit -->
+    <string name="tax_message">Local tax is 7% on all orders</string>
+    <!--Instruction on when to hit the order button -->
+    <string name="button_instructions">Please click order to confirm selection</string>
+</resources>
+
